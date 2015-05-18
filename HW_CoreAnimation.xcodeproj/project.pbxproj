@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8735C42E1B0992FA00A0D8C8 /* PointBezierPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8735C42D1B0992FA00A0D8C8 /* PointBezierPathView.m */; };
+		8735C4301B09930600A0D8C8 /* body_point_act.png in Resources */ = {isa = PBXBuildFile; fileRef = 8735C42F1B09930600A0D8C8 /* body_point_act.png */; };
 		A8D619471AF2CAFF00170A9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D619461AF2CAFF00170A9A /* main.m */; };
 		A8D6194A1AF2CAFF00170A9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D619491AF2CAFF00170A9A /* AppDelegate.m */; };
 		A8D6194D1AF2CAFF00170A9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D6194C1AF2CAFF00170A9A /* ViewController.m */; };
@@ -32,6 +34,9 @@
 		1AC7BFDEF524AB4CF6D023FB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		1FA6D86C1ED25FCC84E7501E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		34F90850309B495A4DAD4CFF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		8735C42C1B0992FA00A0D8C8 /* PointBezierPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointBezierPathView.h; sourceTree = "<group>"; };
+		8735C42D1B0992FA00A0D8C8 /* PointBezierPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointBezierPathView.m; sourceTree = "<group>"; };
+		8735C42F1B09930600A0D8C8 /* body_point_act.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = body_point_act.png; sourceTree = "<group>"; };
 		A8D619411AF2CAFF00170A9A /* HW_CoreAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW_CoreAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8D619451AF2CAFF00170A9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8D619461AF2CAFF00170A9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -98,6 +103,9 @@
 		A8D619431AF2CAFF00170A9A /* HW_CoreAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				8735C42F1B09930600A0D8C8 /* body_point_act.png */,
+				8735C42C1B0992FA00A0D8C8 /* PointBezierPathView.h */,
+				8735C42D1B0992FA00A0D8C8 /* PointBezierPathView.m */,
 				A8D619481AF2CAFF00170A9A /* AppDelegate.h */,
 				A8D619491AF2CAFF00170A9A /* AppDelegate.m */,
 				A8D6194B1AF2CAFF00170A9A /* ViewController.h */,
@@ -228,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8735C4301B09930600A0D8C8 /* body_point_act.png in Resources */,
 				A8D619501AF2CAFF00170A9A /* Main.storyboard in Resources */,
 				A8D6196B1AF2CCFB00170A9A /* anim.gif in Resources */,
 				A8D619551AF2CAFF00170A9A /* LaunchScreen.xib in Resources */,
@@ -285,6 +294,7 @@
 				A8D6194D1AF2CAFF00170A9A /* ViewController.m in Sources */,
 				A8D6194A1AF2CAFF00170A9A /* AppDelegate.m in Sources */,
 				A8D619471AF2CAFF00170A9A /* main.m in Sources */,
+				8735C42E1B0992FA00A0D8C8 /* PointBezierPathView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
